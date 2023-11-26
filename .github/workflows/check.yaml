@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: always succeed
-        run: sh -c 'true'
+        run: sh -c 'false'
       - name: Add commit status
         uses: octodemo-resources/github-commit-status@v1
           with:
