@@ -1,0 +1,11 @@
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  always_ok:
+    runs-on: ubuntu-latest
+    steps:
+      - name: always succeed
+        run: sh -c 'true'
