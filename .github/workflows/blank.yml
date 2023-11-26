@@ -29,8 +29,8 @@ jobs:
         run: sh -c 'true'
       - name: Add commit status
         uses: octodemo-resources/github-commit-status@v1
-          with:
-            context: unit_test_results
-            state: success
-            description: Tests passed
-            target_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+        with:
+          context: unit_test_results
+          state: success
+          description: Tests passed
+          target_url: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
