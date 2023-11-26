@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  always_ok:
+  build:
     runs-on: ubuntu-latest
     steps:
       - name: always succeed
