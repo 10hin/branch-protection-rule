@@ -1,3 +1,5 @@
+name: Check always OK
+
 on:
   pull_request:
     branches:
